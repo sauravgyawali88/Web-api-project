@@ -17,7 +17,7 @@ namespace CalculatorAPI.Controllers
 
         // Example action methods using the calculator service
 
-        [HttpGet("add")]
+        [HttpGet("add")] 
         public ActionResult<double> Add(double firstOperand, double secondOperand)
         {
             // Calculate the difference between two operands using the calculator service
